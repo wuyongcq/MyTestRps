@@ -4,9 +4,11 @@
 
 
 int main(){
-    printf("Hello world!\n");
-
-    printf("%d\n",findMaxNum(3,5));
-    printf("%d\n",add(10,20));
-    return 0;
+  // printNarcNnm(10);
+  for(int i=0;i<100;i++)
+    if(i & 1)
+        printf("%d是奇数\n ",i);
+    else
+        printf("%d是偶数\n ",i);
+        
 }
