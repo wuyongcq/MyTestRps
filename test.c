@@ -10,5 +10,6 @@ int main(){
         printf("%d是奇数\n ",i);
     else
         printf("%d是偶数\n ",i);
+  return 0;
         
 }
